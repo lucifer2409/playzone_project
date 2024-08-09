@@ -5,7 +5,7 @@ import { TypewriterEffectSmooth } from './components/ui/typewriter-effect'
 const Main = () => {
   const words = [
     {
-    text: 'Welcome to play zone', className: 'text-black text-lg' , 
+    text: 'Welcome to play zone', className: 'text-black' , 
     }
   ];
   return (
