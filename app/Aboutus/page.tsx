@@ -36,7 +36,7 @@ We have worked hard to ensure our application and website are not only easy to u
      
       </p>
       <div>
-        <InfiniteMovingCards items={reviews} direction='left' pauseOnHover={false} speed='normal' className='bg-transparent border absolute bottom-0'/>
+        <InfiniteMovingCards items={reviews} direction='left' pauseOnHover={false} speed='fast' className='bg-transparent border absolute bottom-0'/>
       </div>
     </div>
   )
