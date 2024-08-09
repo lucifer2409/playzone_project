@@ -26,17 +26,20 @@ We have worked hard to ensure our application and website are not only easy to u
     } ,  
   ]
   return (
-    <div id='Aboutpage'>
+    <div id='Aboutpage' className='max-w-full max-h-full'>
       <Navbar/>
       <h1 className='text-center text-2xl m-5' id='h1'>
         About us
       </h1>
-      <TextGenerateEffect words={words.words} className='text-sm' duration={0.2}/>
-      <p className='m-10 leading-10' id='para'>
-     
-      </p>
+      <TextGenerateEffect words={words.words} duration={0.2} className='text-xs'/>
       <div>
-        <InfiniteMovingCards items={reviews} direction='left' pauseOnHover={false} speed='fast' className='bg-transparent border absolute bottom-0'/>
+      <InfiniteMovingCards 
+  items={reviews} 
+  direction='left' 
+  pauseOnHover={false} 
+  speed='fast' 
+  className='sm:absolute sm:bottom-10 sm:bg-transparent sm:border sm:text-sm hidden sm:block'
+/>
       </div>
     </div>
   )
